@@ -12,7 +12,7 @@ public class GreetingResource {
 
     @GetMapping
     Greeting greeting() {
-        return new Greeting("Hello Lina Hussain @ " + now());
+        return new Greeting("Hello Lina Hussain @ " + now() +  " :-)");
     }
 
 }
